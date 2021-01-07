@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { toast } from "react-toastify";
-import {useDispatch} from 'react-redux'
-import orderActions from '../redux/order/actions'
+import {useDispatch} from 'react-redux';
+import orderActions from '../redux/order/actions';
 import { useTranslation } from "react-i18next";
 function useGeolocation() {
   const dispatch = useDispatch()

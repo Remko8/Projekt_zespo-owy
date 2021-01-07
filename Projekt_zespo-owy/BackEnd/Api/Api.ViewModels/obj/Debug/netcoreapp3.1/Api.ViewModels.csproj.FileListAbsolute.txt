@@ -46,3 +46,15 @@ E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\BackEnd\Api\Api.ViewModels\obj
 E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\BackEnd\Api\Api.ViewModels\obj\Debug\netcoreapp3.1\Api.ViewModels.csproj.CopyComplete
 E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\BackEnd\Api\Api.ViewModels\obj\Debug\netcoreapp3.1\Api.ViewModels.dll
 E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\BackEnd\Api\Api.ViewModels\obj\Debug\netcoreapp3.1\Api.ViewModels.pdb
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.ViewModels\bin\Debug\netcoreapp3.1\Api.ViewModels.deps.json
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.ViewModels\bin\Debug\netcoreapp3.1\Api.ViewModels.dll
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.ViewModels\bin\Debug\netcoreapp3.1\Api.ViewModels.pdb
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.ViewModels\bin\Debug\netcoreapp3.1\Api.BLL.dll
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.ViewModels\bin\Debug\netcoreapp3.1\Api.BLL.pdb
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.ViewModels\obj\Debug\netcoreapp3.1\Api.ViewModels.csprojAssemblyReference.cache
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.ViewModels\obj\Debug\netcoreapp3.1\Api.ViewModels.AssemblyInfoInputs.cache
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.ViewModels\obj\Debug\netcoreapp3.1\Api.ViewModels.AssemblyInfo.cs
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.ViewModels\obj\Debug\netcoreapp3.1\Api.ViewModels.csproj.CoreCompileInputs.cache
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.ViewModels\obj\Debug\netcoreapp3.1\Api.ViewModels.csproj.CopyComplete
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.ViewModels\obj\Debug\netcoreapp3.1\Api.ViewModels.dll
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.ViewModels\obj\Debug\netcoreapp3.1\Api.ViewModels.pdb

@@ -6,6 +6,7 @@ import CountUp from "react-countup";
 import Details from "../Details/Details";
 import Circle from "../Circle/Circle";
 import { Block, Wrapper, Field, Text } from "./components";
+import GoBackButton from "../GlobalComponents/GoBackButton"
 import LoadingIndicator from "../LoadingIndicator/LoadingIndicator";
 import useToken from "../../hooks/useToken";
 import { useTranslation } from "react-i18next";
@@ -27,6 +28,9 @@ function History() {
   return (
     <Wrapper>
       <Suspense fallback={<LoadingIndicator />}>
+        <div class="back">
+          <GoBackButton>{t("goBack")}</GoBackButton>
+        </div>
         <Block>
           <Text> {t("drinkedBeverages")}</Text>
           {isFetching ? (

@@ -10,8 +10,10 @@ const LanguageChooser = () => {
       <Span>{t("changeLanguage")}</Span>
       <Field lang="pl" />
       <Field lang="en-US" />
-      <Field lang="de" />
     </Wrapper>
   );
 };
 export default LanguageChooser;
+
+
+//      <Field lang="de" />

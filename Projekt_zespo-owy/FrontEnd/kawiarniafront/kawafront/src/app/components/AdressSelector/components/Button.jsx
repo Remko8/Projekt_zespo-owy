@@ -10,9 +10,9 @@ const Button = ({ children, dataset, callbacks }) => {
     if (dataset) {
       const { houseNumber, place, zipcode } = dataset;
       if (
-        houseNumber.length !== 0 &&
-        place.length !== 0 &&
-        zipcode.length !== 0
+        (houseNumber.length !== 0 || null) &&
+        (place.length !== 0 || null) &&
+        (zipcode.length || null) !== 0
       ) {
         dispatch(orderActions.setOrderAdress(dataset));
       }else{

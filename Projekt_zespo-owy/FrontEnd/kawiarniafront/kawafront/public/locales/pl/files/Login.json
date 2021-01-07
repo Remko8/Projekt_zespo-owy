@@ -1,0 +1,9 @@
+{
+    "username": "Nazwa użytkownika",
+    "password": "Hasło",
+    "forgotPassword": "Zapomniałem hasła",
+    "login": "Login",
+    "signIn": "Rejestracja",
+    "pl": "Polski",
+    "en-US": "Angielski"
+}

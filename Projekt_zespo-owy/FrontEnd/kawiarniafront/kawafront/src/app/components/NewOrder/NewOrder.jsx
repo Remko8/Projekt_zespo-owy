@@ -4,6 +4,7 @@ import "./NewOrder.scss";
 import CoffeeCup from "../CoffeeCup/CoffeeCup";
 import Payment from "../Payment/Payment";
 import { Coffee, Wrapper, Section, Button, P, Text } from "./components";
+import NewOrderBack from "../GlobalComponents/NewOrderBack";
 import LoadingIndicator from "../LoadingIndicator/LoadingIndicator";
 import TextLoop from "react-text-loop";
 import orderActions from "../../redux/order/actions";
@@ -33,6 +34,9 @@ function NewOrder() {
   }, [name]);
   return (
     <Fragment>
+      <div class="back2">
+        <NewOrderBack>{t("goBack")}</NewOrderBack>
+      </div>
       <Suspense fallback={<LoadingIndicator />}>
         <Section>
           <Text>

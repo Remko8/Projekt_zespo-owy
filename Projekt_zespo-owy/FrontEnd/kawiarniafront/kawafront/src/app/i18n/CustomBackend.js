@@ -1,4 +1,4 @@
-import Backend from "i18next-xhr-backend";
+/*import Backend from "i18next-xhr-backend";
 
 
 class CustomBackend extends Backend {
@@ -29,9 +29,9 @@ class CustomBackend extends Backend {
       this.options,
       (data, xhr) => {
         if (xhr.status >= 500 && xhr.status < 600)
-          return callback("failed loading " + url, true /* retry */);
+          return callback("failed loading " + url, true /* retry *//*);
         if (xhr.status >= 400 && xhr.status < 500)
-          return callback("failed loading " + url, false /* no retry */);
+          return callback("failed loading " + url, false /* no retry *//*);
 
         let ret, err;
         try {
@@ -48,3 +48,4 @@ class CustomBackend extends Backend {
 }
 
 export default CustomBackend;
+*/

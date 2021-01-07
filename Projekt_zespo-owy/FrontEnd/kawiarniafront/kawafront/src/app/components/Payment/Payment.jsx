@@ -119,7 +119,7 @@ const Payment = ({
       {isAddToBucketVisible ? (
         <Block type="addToBucket">
           <Span>{t("add")}</Span>
-          <P>{`${t("to")} ${t("bucketD")} `} </P>
+          <P class="_p">{`${t("to")} ${t("bucketD")} `} </P>
         </Block>
       ) : null}
       <ToastContainer

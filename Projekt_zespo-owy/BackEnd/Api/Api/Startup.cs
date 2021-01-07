@@ -25,7 +25,7 @@ namespace Api
 
             Configuration = builder.Build();
 
-            _connectionString = Configuration["ConnectionStrings:MsSqlConnection"];
+            _connectionString = Configuration["ConnectionStrings:MsSqlAzure"];
 
             Configuration = configuration;            
         }
@@ -37,6 +37,18 @@ namespace Api
         {
             services.AddCors(options =>
             {
+                options.AddPolicy("Cors_translator1", builder => {
+                    builder.WithOrigins("https://api.poeditor.com/v2/terms/list")
+                                        .AllowAnyOrigin()
+                                        .AllowAnyHeader()
+                                        .AllowAnyMethod();
+                });
+                options.AddPolicy("Cors_translator2", builder => {
+                    builder.WithOrigins("https://api.poeditor.com/v2/terms/add")
+                                        .AllowAnyOrigin()
+                                        .AllowAnyHeader()
+                                        .AllowAnyMethod();
+                });
                 options.AddPolicy(CorsPolicy, builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().Build());
             }) ;
             services.AddControllers();
@@ -96,6 +108,8 @@ namespace Api
             app.UseRouting();
 
             app.UseCors(CorsPolicy);
+            app.UseCors("Cors_translator1");
+            app.UseCors("Cors_translator2");
 
             app.UseAuthentication();
 

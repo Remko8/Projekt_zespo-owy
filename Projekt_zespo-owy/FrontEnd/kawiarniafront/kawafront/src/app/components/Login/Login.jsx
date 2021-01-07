@@ -64,7 +64,7 @@ export default function Login() {
                 <Button name="forgottenPassword">{t('forgotPassword')}</Button>
               </Field>
               <Field>
-                <Button isSubmit={true} name="login">{t("log in")}</Button>
+                <Button isSubmit={true} name="login">{t("login")}</Button>
               </Field>
               <Field>
                 <Button name="signIn">{t("signIn")}</Button>

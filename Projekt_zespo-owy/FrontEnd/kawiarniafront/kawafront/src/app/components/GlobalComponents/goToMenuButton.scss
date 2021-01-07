@@ -1,0 +1,62 @@
+.signinbutton__block {
+    text-align: center;
+    align-content: center;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: larger;
+    display: flex;
+    justify-content: left;
+    padding: 2%;
+    width: 25%;
+    margin: 0.5%;
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+    background-color: rgba(white, 1);
+    transition: background-color 0.3s;
+    &:hover {
+      border-color: cornflowerblue;
+      cursor: pointer;
+    }
+  }
+
+  .goBackButton__block {
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: larger;
+    align-content: center;
+    padding: 2%;
+    width: 25%;
+    border:1px solid black;
+    border-radius: 8px;
+    background-color: rgba(black, 0.5);
+    transition: background-color 0.3s;
+    max-width: 300px;
+    &:hover {
+
+      background-color: rgba(gray, 0.5);
+      cursor: pointer;
+    }
+  }  
+
+  .NewOrderBack__block {
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: larger;
+    align-content: center;
+    padding: 2%;
+    width: 25%;
+    border:1px solid black;
+    border-radius: 8px;
+    background-color: rgba(black, 0.75);
+    transition: background-color 0.3s;
+    max-width: 300px;
+    &:hover {
+
+      background-color: rgba(gray, 0.75);
+      cursor: pointer;
+    }
+  }  

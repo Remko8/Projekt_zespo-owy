@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p+HwrKEzpq7Zw2+ujkOF4hZhHrPnIMy9KcgAs4wP1lX9HqCA2EEDu2CUdLCeGH4f2+ivd1A8W/ueeJxjoQQr1Q==",
+  "dgSpecHash": "jcpWx+VbapH/NTw/iaxAESZZzxjwOhvskyUc5IhnKYE+KXC2VIiW2NXLNN4Lk8dyB89jAhg3Rcn5OkiByFIzyw==",
   "success": true,
-  "projectFilePath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.UnitTests\\Api.UnitTests.csproj",
+  "projectFilePath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.UnitTests\\Api.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\przem\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
     "C:\\Users\\przem\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",

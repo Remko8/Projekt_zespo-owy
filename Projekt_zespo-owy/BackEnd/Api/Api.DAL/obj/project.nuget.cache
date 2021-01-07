@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2xFOC8EqVinFz7mlebIF98utMmKQSAFmJlItWGA1ElLdCAR+O8llq8Idkx+VsGbcz5ZrWD6Z4miqRmIwbo5kKQ==",
+  "dgSpecHash": "EMtsT/y02PU6QyB9/2fSvK3GPhhBTTOPd2WB3xGdZ83peJPjG95aZBdX/7DEMvIZz5Z/MgjFArsMcDzT0AC0rA==",
   "success": true,
-  "projectFilePath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.DAL\\Api.DAL.csproj",
+  "projectFilePath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.DAL\\Api.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\przem\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\przem\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

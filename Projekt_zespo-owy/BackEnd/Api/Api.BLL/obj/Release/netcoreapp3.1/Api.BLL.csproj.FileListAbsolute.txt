@@ -7,3 +7,12 @@ C:\Users\DTroc\Documents\Git\kawiarnia\Api\Api.BLL\obj\Release\netcoreapp3.1\Api
 C:\Users\DTroc\Documents\Git\kawiarnia\Api\Api.BLL\obj\Release\netcoreapp3.1\Api.BLL.csproj.CoreCompileInputs.cache
 C:\Users\DTroc\Documents\Git\kawiarnia\Api\Api.BLL\obj\Release\netcoreapp3.1\Api.BLL.dll
 C:\Users\DTroc\Documents\Git\kawiarnia\Api\Api.BLL\obj\Release\netcoreapp3.1\Api.BLL.pdb
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\bin\Release\netcoreapp3.1\Api.BLL.deps.json
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\bin\Release\netcoreapp3.1\Api.BLL.dll
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\bin\Release\netcoreapp3.1\Api.BLL.pdb
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\obj\Release\netcoreapp3.1\Api.BLL.csprojAssemblyReference.cache
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\obj\Release\netcoreapp3.1\Api.BLL.AssemblyInfoInputs.cache
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\obj\Release\netcoreapp3.1\Api.BLL.AssemblyInfo.cs
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\obj\Release\netcoreapp3.1\Api.BLL.csproj.CoreCompileInputs.cache
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\obj\Release\netcoreapp3.1\Api.BLL.dll
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\obj\Release\netcoreapp3.1\Api.BLL.pdb

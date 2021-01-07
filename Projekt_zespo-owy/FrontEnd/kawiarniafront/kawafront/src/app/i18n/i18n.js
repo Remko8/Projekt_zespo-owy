@@ -1,4 +1,4 @@
-import i18n from "i18next";
+/*import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import CustomBackend from "./CustomBackend";
 import LanguageDetector from "i18next-browser-languagedetector";
@@ -15,11 +15,11 @@ i18n
     debug: true,
     saveMissing: true,
     backend: {
-      // cors anywhere is CORS trick to avoid error
+      // cors anywhere is CORS trick to avoid error |  https://cors-anywhere.herokuapp.com/
       loadPath:
-        "https://cors-anywhere.herokuapp.com/https://api.poeditor.com/v2/terms/list",
+        " https://cors-anywhere.herokuapp.com/https://api.poeditor.com/v2/terms/list",
       addPath:
-        "https://cors-anywhere.herokuapp.com/https://api.poeditor.com/v2/terms/add",
+        " https://cors-anywhere.herokuapp.com/https://api.poeditor.com/v2/terms/add",
       crossDomain: true,
       parse: (data) => {
         const parsedData = JSON.parse(data);
@@ -63,3 +63,4 @@ i18n
       escapeValue: false, // not needed for react as it escapes by default
     },
   });
+*/

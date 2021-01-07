@@ -4952,11 +4952,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.DAL\\Api.DAL.csproj",
+      "projectUniqueName": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.DAL\\Api.DAL.csproj",
       "projectName": "Api.DAL",
-      "projectPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.DAL\\Api.DAL.csproj",
+      "projectPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.DAL\\Api.DAL.csproj",
       "packagesPath": "C:\\Users\\przem\\.nuget\\packages\\",
-      "outputPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.DAL\\obj\\",
+      "outputPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\przem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4972,8 +4972,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.BLL\\Api.BLL.csproj": {
-              "projectPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.BLL\\Api.BLL.csproj"
+            "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.BLL\\Api.BLL.csproj": {
+              "projectPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.BLL\\Api.BLL.csproj"
             }
           }
         }

@@ -1,12 +1,12 @@
 
-import React from 'react'
-import { useEffect } from 'react'
-import {useDispatch} from 'react-redux' 
-import {kURL } from '../helpers/consts'
-import bucketActions from '../redux/bucket/actions',
-import {getFetchHeader }from '../helpers'
-import useToken from '../hooks/useToken'
-import { useState } from 'react'
+import React from 'react';
+import { useEffect } from 'react';
+import {useDispatch} from 'react-redux';
+import {kURL } from '../helpers/consts';
+import bucketActions from '../redux/bucket/actions';
+import {getFetchHeader }from '../helpers';
+import useToken from '../hooks/useToken';
+import { useState } from 'react';
 export default ()=>{
     const dispatch =useDispatch()
     const token = useToken()

@@ -10328,11 +10328,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.UnitTests\\Api.UnitTests.csproj",
+      "projectUniqueName": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.UnitTests\\Api.UnitTests.csproj",
       "projectName": "Api.UnitTests",
-      "projectPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.UnitTests\\Api.UnitTests.csproj",
+      "projectPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.UnitTests\\Api.UnitTests.csproj",
       "packagesPath": "C:\\Users\\przem\\.nuget\\packages\\",
-      "outputPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.UnitTests\\obj\\",
+      "outputPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\przem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10348,8 +10348,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api\\Api.csproj": {
-              "projectPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api\\Api.csproj"
+            "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api\\Api.csproj": {
+              "projectPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api\\Api.csproj"
             }
           }
         }

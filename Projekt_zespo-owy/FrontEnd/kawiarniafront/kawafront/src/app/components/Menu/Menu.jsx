@@ -17,10 +17,10 @@ const Menu = () => {
           <Block>
             <LanguageChooser />
           </Block>
-          <Block name="history">{t("history")}</Block>
-          <Block name="bucket">{t("bucket")}</Block>
-          <Block name="account">{t("account")}</Block>
           <Block name="newOrder">{t("new order")}</Block>
+          <Block name="bucket">{t("bucket")}</Block>
+          <Block name="history">{t("history")}</Block>          
+          <Block name="account">{t("account")}</Block>          
           <Block name="logout">{t("logout")}</Block>
         </Container>
         <Container>
@@ -28,20 +28,17 @@ const Menu = () => {
 
           <TextLoop mask={true}>
             <Text type="info">
-              {`Ludwik van Beethoven ${t("was")} ${t("her")} ${t("big")} ${t(
-                "fan"
+              {`Ludwik van Beethoven ${t("was her big fan"
               )} `}{" "}
             </Text>
             <Text type="info">
-              {`${t("in")} USA ${t('it')} ${t("was")} ${t("beverage")} ${t("drinked")} ${t(
-                "only"
-              )} ${t("in")} ${t("dinnertime")}  `}
+              {`${t("in USA it was beverage drinked only in dinnertime")}  `}
             </Text>
             <Text type="info">
-              {`${t("her")} ${t("first")} ${t("advertisement")} ${t("wasD")} ${t("leaflet")} `}
+              {`${t("her first advertisement was leaflet")} `}
             </Text>
             <Text type="info">
-              {`${t("has")} ${t("over")} XI ${t("centuries")} `}
+              {`${t("has over XI centuries")} `}
             </Text>
           </TextLoop>
         </Container>

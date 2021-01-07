@@ -53,12 +53,11 @@ function Account() {
         .catch((err) => toast.error(t(err)));
     };
   }, [dispatch, t, token]);
-  return (
-    <Wrapper>
+  return (    
+    <Wrapper>        
       <Suspense>
         <Container fallback={<LoadingIndicator />}>
-          <Text>Konto: {username} </Text>
-
+          <Text>Konto: {username} </Text>          
           <Field>
             <Input name="password" type="password" />
             <Span type="highlight" />
@@ -124,6 +123,7 @@ function Account() {
             <Span type="bar" />
             <Label>{t("place")}</Label>
           </Field>
+          <Button type="goBack">{t("goBack")} </Button>
           <Button type="save">{t("save")} </Button>
           <Button type="remove" callback={setIsModalOpen}>
             {t("remove")}{" "}

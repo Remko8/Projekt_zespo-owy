@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3lZb8Qj4G/KlV7xBPMrs+u3Pgu/dj3LrB9hPQrng+EUyIfLuXtHxZ2othd5L9hiRWJzM5KN8WfZZHVQK8JFBng==",
+  "dgSpecHash": "RIrEJgfjAnSGz5CRG5qbcowAqJ9tPhgKRAzFGvyJHrXkggtnxMr4a8Omoi7GparT4PUriabEkGbpRKC8LaVXhw==",
   "success": true,
-  "projectFilePath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.ViewModels\\Api.ViewModels.csproj",
+  "projectFilePath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.ViewModels\\Api.ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\przem\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hPwzKLrHtGvOzLukUyJA8V+3PUbAxddoKLgtyUQsGfth4Ef8U+4XJs7L89GaxB81Xh0B2WifUOqsqxz+g5ZeWA==",
+  "dgSpecHash": "Fs60sK1E2mKYPdE3VtHlv8MVKvy9RhgVjqloPE5nKJhQBk82RF09CXBgag+eGrX+5wMX/7XbRZYTMgvxKGaK/w==",
   "success": true,
-  "projectFilePath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api\\Api.csproj",
+  "projectFilePath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\przem\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
     "C:\\Users\\przem\\.nuget\\packages\\dotnetenv\\1.4.0\\dotnetenv.1.4.0.nupkg.sha512",

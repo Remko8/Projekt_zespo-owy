@@ -1,5 +1,12 @@
 $bgurl: "https://wallpapersprinted.com/download/2/coffee_break-wallpaper-2560x1600.jpg";
 
+.toLeft{
+  width: 100%;
+  position: relative;
+  left: 0%;
+  color: black;
+}
+
 .signIn {
     display: flex;
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url($bgurl);

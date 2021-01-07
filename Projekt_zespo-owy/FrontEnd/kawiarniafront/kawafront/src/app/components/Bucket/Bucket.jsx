@@ -6,6 +6,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import bucketActions from "../../redux/bucket/actions";
 import { Block, Button, Field, Info, Text, Wrapper } from "./components";
+import GoBackButton from "../GlobalComponents/GoBackButton";
 import useToken from "../../hooks/useToken";
 import { useEffect, Suspense } from "react";
 import { useTranslation } from "react-i18next";
@@ -47,94 +48,99 @@ function Bucket() {
     setIsModalOpen(true);
   }
   return (
-    <Wrapper>
-      <Suspense fallback={<LoadingIndicator />}>
-        <Info>
-          {isFetching ? (
-            <LoadingIndicator />
-          ) : (
-            <Fragment>
-              <Text>
-                {" "}
-                {`${t("valueOfYourBucket")}: ${getTotalValue(bucketItems)} zł `}
-              </Text>
-              <Text>
-                {`${t("valueOfYourActualOrder")}  ${items.reduce(
-                  (acc, val) => acc + val.price,
-                  0
-                )}zł`}
-              </Text>
-            </Fragment>
-          )}
+    <div class="mainBucket">
+      <div class="back3">
+            <GoBackButton>{t("goBack")}</GoBackButton>
+      </div>
+      <Wrapper>
+        <Suspense fallback={<LoadingIndicator />}>
+          <Info>
+            {isFetching ? (
+              <LoadingIndicator />
+            ) : (
+              <Fragment>
+                <Text>
+                  {" "}
+                  {`${t("valueOfYourBucket")}: ${getTotalValue(bucketItems)} zł `}
+                </Text>
+                <Text>
+                  {`${t("valueOfYourActualOrder")}  ${items.reduce(
+                    (acc, val) => acc + val.price,
+                    0
+                  )}zł`}
+                </Text>
+              </Fragment>
+            )}
 
-          {getCountOfSelectedItemToPay(bucketItems) > 0 ? (
-            <Button name="payForSelectedProducts">
-              {t("payForSelectedProducts")}
-            </Button>
-          ) : null}
-        </Info>
-        <Block>
-          {isFetching ? (
-            <LoadingIndicator />
-          ) : (
-            <Fragment>
-              {bucketItems.length ? (
-                bucketItems.map((item, idx) => {
-                  return (
-                    <Field
-                      key={idx}
-                      idx={idx}
-                      coffeeName={item.coffeeName}
-                      className={
-                        item.isSelectedToPay
-                          ? "bucket__field selected"
-                          : "bucket__field"
-                      }
-                    >
-                      <Text type="name">{t(item.coffeeName)}</Text>
-                      {!item.isSelectedToPay ? (
-                        <Fragment>
-                          <Button
-                            idx={idx}
-                            name="delete"
-                            onModalOpen={openModal}
-                          >
-                            &#128465;
-                          </Button>
-                        </Fragment>
-                      ) : null}
-                    </Field>
-                  );
-                })
-              ) : (
-                <Text>{t("noOrders")}</Text>
-              )}
-            </Fragment>
-          )}
-        </Block>
-        <Modal
-          onRequestClose={closeModal}
-          className="Modal"
-          overlayClassName="Overlay"
-          isOpen={isModalOpen}
-          ariaHideApp={false}
-        >
-          <DeleteItemFromBucket onModalClose={closeModal} />
-        </Modal>
-        <VideoBackground indexOfVideo={7} shouldVideoLoop={false} />
-        <ToastContainer
-          position="top-left"
-          autoClose={5000}
-          hideProgressBar
-          newestOnTop={false}
-          closeOnClick
-          rtl={false}
-          pauseOnFocusLoss
-          draggable
-          pauseOnHover
-        />
-      </Suspense>
-    </Wrapper>
+            {getCountOfSelectedItemToPay(bucketItems) > 0 ? (
+              <Button name="payForSelectedProducts">
+                {t("payForSelectedProducts")}
+              </Button>
+            ) : null}
+          </Info>
+          <Block>
+            {isFetching ? (
+              <LoadingIndicator />
+            ) : (
+              <Fragment>
+                {bucketItems.length ? (
+                  bucketItems.map((item, idx) => {
+                    return (
+                      <Field
+                        key={idx}
+                        idx={idx}
+                        coffeeName={item.coffeeName}
+                        className={
+                          item.isSelectedToPay
+                            ? "bucket__field selected"
+                            : "bucket__field"
+                        }
+                      >
+                        <Text type="name">{t(item.coffeeName)}</Text>
+                        {!item.isSelectedToPay ? (
+                          <Fragment>
+                            <Button
+                              idx={idx}
+                              name="delete"
+                              onModalOpen={openModal}
+                            >
+                              &#128465;
+                            </Button>
+                          </Fragment>
+                        ) : null}
+                      </Field>
+                    );
+                  })
+                ) : (
+                  <Text>{t("noOrders")}</Text>
+                )}
+              </Fragment>
+            )}
+          </Block>
+          <Modal
+            onRequestClose={closeModal}
+            className="Modal"
+            overlayClassName="Overlay"
+            isOpen={isModalOpen}
+            ariaHideApp={false}
+          >
+            <DeleteItemFromBucket onModalClose={closeModal} />
+          </Modal>
+          <VideoBackground indexOfVideo={7} shouldVideoLoop={false} />
+          <ToastContainer
+            position="top-left"
+            autoClose={5000}
+            hideProgressBar
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+          />
+        </Suspense>
+      </Wrapper>
+    </div>
   );
 }
 export default Bucket;

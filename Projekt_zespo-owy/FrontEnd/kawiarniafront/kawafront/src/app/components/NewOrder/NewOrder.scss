@@ -1,5 +1,11 @@
 $bgurl: "https://i.ibb.co/hKTYq0m/background-both-sides.png";
 
+.back2{
+  padding-top: 3%;
+  padding-left: 5%;
+  margin-bottom: 0;
+}
+
 .newOrder {
   display: flex;
   max-width: 100%;
@@ -60,7 +66,7 @@ $bgurl: "https://i.ibb.co/hKTYq0m/background-both-sides.png";
     justify-content: center;
     align-items: center;
     padding: 10%;
-
+    padding-top: 0;
     height: 100vh;
   }
 }

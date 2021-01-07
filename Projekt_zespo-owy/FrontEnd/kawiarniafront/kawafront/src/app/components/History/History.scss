@@ -8,6 +8,10 @@ $bgurl: "https://i.ibb.co/hKTYq0m/background-both-sides.png";
   }
 }
 
+.back{
+  margin-bottom: 5%;
+}
+
 .history {
   display: flex;
   flex-direction: column;
@@ -16,6 +20,7 @@ $bgurl: "https://i.ibb.co/hKTYq0m/background-both-sides.png";
   justify-content: center;
   width: 100%;
   padding: 10%;
+  padding-top: 5%;
   min-height: 100vh;
   &__text {
     color: white;
@@ -51,7 +56,8 @@ $bgurl: "https://i.ibb.co/hKTYq0m/background-both-sides.png";
     }
   }
   &__block {
-    width: 20%;
+    position: relative;
+    width: 35%;
     padding: 1%;
     font-size: 1.5vmax;
     //border: 1px solid black;

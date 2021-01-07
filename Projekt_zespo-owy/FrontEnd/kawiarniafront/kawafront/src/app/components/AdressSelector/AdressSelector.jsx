@@ -16,11 +16,17 @@ export default function AdressSelector() {
   const [place, setPlace] = useState("");
   const houseregex = new RegExp("^[0-9]{1,}[A-z]{1}|^[0-9]{1,}");
   const placeregex = new RegExp("^([A-z]|[ęóąśłżźćńĘÓĄŚŁŻŹĆŃ]){1,}");
-  const zipcoderegex = new RegExp("^[0-9]{2}-[0-9]{3}");
+  const zipcoderegex = new RegExp("^[0-9]{2}-?[0-9]{3}");
   const shouldAbleNextButton =
     houseregex.test(houseNumber) &&
     placeregex.test(place) &&
     zipcoderegex.test(zipcode);
+
+  const shouldAbleNextButton2 =
+    (houseNumber.length !== 0 || null) &&
+    (place.length !== 0 || null) &&
+    (zipcode.length || null) !== 0
+
   const dataset = {
     houseNumber,
     road,
@@ -57,13 +63,20 @@ export default function AdressSelector() {
         <Input name="place" value={place} callback={setPlace} />
       </Container>
       <Field>
-        <Button callbacks={callbacks}>{`${t("use")} ${t("default")} ${t(
-          "addressD"
+        <Button callbacks={callbacks}>{`${t("use default addressD"
         )} `}</Button>
-        {shouldAbleNextButton ? (
+       {shouldAbleNextButton ? (
           <Button dataset={dataset}>{`${t("confirm")} ${t("data")} `}</Button>
-        ) : null}
-      </Field>
+        ) : <Button dataset={dataset}>{`${t("fill the data")} ${t("data")} `}</Button>}
+        </Field>
     </Wrapper>
   );
 }
+
+/*{shouldAbleNextButton2 ? (
+          <Button dataset={dataset}>{`${t("confirm")} ${t("data")} `}</Button>
+        ) : null}
+
+zamiast:
+<Button dataset={dataset}>{`${t("confirm")} ${t("data")} `}</Button>
+*/

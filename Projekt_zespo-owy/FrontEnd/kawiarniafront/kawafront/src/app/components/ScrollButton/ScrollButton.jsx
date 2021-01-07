@@ -1,7 +1,7 @@
 import React from "react";
 import { elementScrollIntoView } from "../../helpers";
 import "./ScrollButton.scss";
-function ScrollButton({goTo}) {
+function  ScrollButton({goTo}) {
   function handleClick() {
     elementScrollIntoView(goTo);
   }

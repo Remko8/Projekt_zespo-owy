@@ -13,12 +13,14 @@ import {
   Input,
   Select,
 } from "./components";
+import GoToMenuButton from "../GlobalComponents/GoToMenuButton";
 import { useTranslation } from "react-i18next";
 import { Text } from "../Account/components";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import LoadingIndicator from "../LoadingIndicator/LoadingIndicator";
 import { useHistory } from "react-router-dom";
+import { reduceEachTrailingCommentRange } from "typescript";
 function SignIn() {
   const isFetching = useSelector((state) => state.user.isFetching);
   const isRegistered = useSelector((state) => state.user.isRegistered);
@@ -52,15 +54,18 @@ function SignIn() {
               closeOnClick: true,
               pauseOnHover: true,
               draggable: true,
-              progress: undefined,
+              progress: undefined,              
               onClose: () => dispatch(userActions.deleteError()),
             });
           })()
         : null}
       {isFetching ? (
         <LoadingIndicator />
-      ) : (
+      ) : (     
         <Formulee>
+        <div class="toLeft">
+          <GoToMenuButton ClassName="signIn">{t("goBack")}</GoToMenuButton>
+        </div>
           <Text>{t("account")}</Text>
           <Field>
             <Input name="username" />

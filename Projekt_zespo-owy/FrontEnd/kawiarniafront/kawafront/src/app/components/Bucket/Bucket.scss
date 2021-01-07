@@ -1,19 +1,24 @@
 $bgurl: "https://wallpapersprinted.com/download/2/coffee_break-wallpaper-2560x1600.jpg";
 
+.back3{
+  padding-left: 4%;
+}
 
-
+.mainBucket{
+  padding: 5%
+}
 .bucket {
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  padding: 5%;
+  padding: 0;
 
   &__info {
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     padding: 5%;
 
     width: 50%;

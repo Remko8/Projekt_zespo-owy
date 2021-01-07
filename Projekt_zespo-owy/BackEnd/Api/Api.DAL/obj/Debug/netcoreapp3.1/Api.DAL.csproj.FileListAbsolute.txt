@@ -46,3 +46,15 @@ E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\BackEnd\Api\Api.DAL\obj\Debug\
 E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\BackEnd\Api\Api.DAL\obj\Debug\netcoreapp3.1\Api.DAL.csproj.CopyComplete
 E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\BackEnd\Api\Api.DAL\obj\Debug\netcoreapp3.1\Api.DAL.dll
 E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\BackEnd\Api\Api.DAL\obj\Debug\netcoreapp3.1\Api.DAL.pdb
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.DAL\bin\Debug\netcoreapp3.1\Api.DAL.deps.json
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.DAL\bin\Debug\netcoreapp3.1\Api.DAL.dll
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.DAL\bin\Debug\netcoreapp3.1\Api.DAL.pdb
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.DAL\bin\Debug\netcoreapp3.1\Api.BLL.dll
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.DAL\bin\Debug\netcoreapp3.1\Api.BLL.pdb
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.DAL\obj\Debug\netcoreapp3.1\Api.DAL.csprojAssemblyReference.cache
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.DAL\obj\Debug\netcoreapp3.1\Api.DAL.AssemblyInfoInputs.cache
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.DAL\obj\Debug\netcoreapp3.1\Api.DAL.AssemblyInfo.cs
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.DAL\obj\Debug\netcoreapp3.1\Api.DAL.csproj.CoreCompileInputs.cache
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.DAL\obj\Debug\netcoreapp3.1\Api.DAL.csproj.CopyComplete
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.DAL\obj\Debug\netcoreapp3.1\Api.DAL.dll
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.DAL\obj\Debug\netcoreapp3.1\Api.DAL.pdb

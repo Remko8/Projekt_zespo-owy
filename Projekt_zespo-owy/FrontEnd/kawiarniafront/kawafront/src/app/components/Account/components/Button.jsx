@@ -53,6 +53,9 @@ const Button = ({ children, type, callback }) => {
         }
         setIsClicked(true);
         break;
+      case "goBack":
+        history.push("/panel");
+        break;
       default:
         break;
     }

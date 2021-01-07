@@ -34,3 +34,12 @@ E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\BackEnd\Api\Api.BLL\obj\Debug\
 E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\BackEnd\Api\Api.BLL\obj\Debug\netcoreapp3.1\Api.BLL.dll
 E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\BackEnd\Api\Api.BLL\obj\Debug\netcoreapp3.1\Api.BLL.pdb
 E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\BackEnd\Api\Api.BLL\obj\Debug\netcoreapp3.1\Api.BLL.csprojAssemblyReference.cache
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\bin\Debug\netcoreapp3.1\Api.BLL.deps.json
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\bin\Debug\netcoreapp3.1\Api.BLL.dll
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\bin\Debug\netcoreapp3.1\Api.BLL.pdb
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\obj\Debug\netcoreapp3.1\Api.BLL.csprojAssemblyReference.cache
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\obj\Debug\netcoreapp3.1\Api.BLL.AssemblyInfoInputs.cache
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\obj\Debug\netcoreapp3.1\Api.BLL.AssemblyInfo.cs
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\obj\Debug\netcoreapp3.1\Api.BLL.csproj.CoreCompileInputs.cache
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\obj\Debug\netcoreapp3.1\Api.BLL.dll
+E:\Programowanie\rok_4\Projekt_Zespolowy\Praktyka\Projekt_zespo-owy\BackEnd\Api\Api.BLL\obj\Debug\netcoreapp3.1\Api.BLL.pdb

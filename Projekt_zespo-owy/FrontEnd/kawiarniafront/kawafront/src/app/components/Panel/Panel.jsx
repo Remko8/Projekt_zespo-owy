@@ -21,9 +21,24 @@ function Panel() {
           <Route exact path="/panel">
             <Menu />
           </Route>
+            <Route path="/panel/newOrder">
+            <NewOrder />
+          </Route>
+          <Route path="/panel/bucket">
+            <Bucket />
+          </Route>
           <Route path="/panel/account">
             <Account />
-          </Route>          
+          </Route>
+          <Route path="/panel/history">
+            <History />
+          </Route>
+          <Route path="/panel/deleteItemFromBucket">
+            <DeleteItemFromBucket />
+          </Route>
+          <Route path="/panel/pay">
+            <Pay />
+          </Route>         
           <Route>
             <Redirect to="/" />
           </Route>

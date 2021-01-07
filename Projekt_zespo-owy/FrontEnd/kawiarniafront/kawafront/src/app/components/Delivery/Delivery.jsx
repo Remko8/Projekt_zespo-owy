@@ -31,10 +31,10 @@ function Delivery() {
               </Block>
               <Block id="choosedGeolocation" setSelectedView={setSelectedView}>
                 <Span>
-                  {t("use")} {t("geolocalization")}
+                  {t("use geolocalization")}
                 </Span>
                 <P>
-                  {t("or")} {t("choose")} {t("on")} {t("map")}
+                  {t("or choose on map")}
                 </P>
               </Block>
             </FadeIn>

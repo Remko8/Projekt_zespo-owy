@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.BLL\\Api.BLL.csproj": {}
+    "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.BLL\\Api.BLL.csproj": {}
   },
   "projects": {
-    "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.BLL\\Api.BLL.csproj": {
+    "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.BLL\\Api.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.BLL\\Api.BLL.csproj",
+        "projectUniqueName": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.BLL\\Api.BLL.csproj",
         "projectName": "Api.BLL",
-        "projectPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.BLL\\Api.BLL.csproj",
+        "projectPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.BLL\\Api.BLL.csproj",
         "packagesPath": "C:\\Users\\przem\\.nuget\\packages\\",
-        "outputPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\BackEnd\\Api\\Api.BLL\\obj\\",
+        "outputPath": "E:\\Programowanie\\rok_4\\Projekt_Zespolowy\\Praktyka\\Projekt_zespo-owy\\BackEnd\\Api\\Api.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\przem\\AppData\\Roaming\\NuGet\\NuGet.Config",
